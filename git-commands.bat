@@ -11,3 +11,7 @@ git status -s //Para ver estatus mas pro
 git diff //Para ver el detalle de las diferencias en los archivos
 git diff --staged //Para ver el detalle de las diferencias de los archivos que ya se han agregado
 git merge ramab //Hace merge de la subrama a la rama superior
+
+//Para subir los cambios a github
+git remote add origin git@github.com:smlrivher/learning-git.git //Copiar de la creación del repositorio en github
+git push -u origin master //Pasa subir los cambios de la rama a github
