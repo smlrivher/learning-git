@@ -10,3 +10,4 @@ git restore git-commands.html //Para descartar los cambios
 git status -s //Para ver estatus mas pro
 git diff //Para ver el detalle de las diferencias en los archivos
 git diff --staged //Para ver el detalle de las diferencias de los archivos que ya se han agregado
+git merge ramab //Hace merge de la subrama a la rama superior
