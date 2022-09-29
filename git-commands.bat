@@ -5,6 +5,8 @@ git config --global core.autocrlf input //Para configurar el salto de linea en l
 git init //Para inicializar git en un directorio
 git rm git-commands.html //Para eliminar archivos con comando git
 git mv git-commands.txt git-commands.bat //Para renombrar archivos con comando git
-git restore --staged git-commands.html //Para sacar el cambio despues del commit
+git restore --staged git-commands.html //Para sacar el cambio despues de haberlos agregado
 git restore git-commands.html //Para descartar los cambios
 git status -s //Para ver estatus mas pro
+git diff //Para ver el detalle de las diferencias en los archivos
+git diff --staged //Para ver el detalle de las diferencias de los archivos que ya se han agregado
