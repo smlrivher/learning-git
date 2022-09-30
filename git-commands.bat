@@ -15,3 +15,10 @@ git merge ramab //Hace merge de la subrama a la rama superior
 //Para subir los cambios a github
 git remote add origin git@github.com:smlrivher/learning-git.git //Copiar de la creación del repositorio en github
 git push -u origin master //Pasa subir los cambios de la rama a github
+
+//Para eliminar ramas 
+git checkout main //Se debe estar en la rama master o main, según sea el caso
+git branch   //Pata ver las ramas que existen
+git fetch -p  //Para ver las ramas remotas
+git branch -d fix/properties-and-ignore   //Para eliminar la rama de manera local
+git push origin --delete fix/properties-and-ignore //Para eliminar una rama remota
